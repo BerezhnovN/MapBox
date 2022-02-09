@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import Cancel from "./images/cancel.svg";
-import Done from "./images/done.svg";
+import Cancel from "../../images/cancel.svg";
+import Done from "../../images/done.svg";
+import "./style.css";
 
 const Marker = ({ setFlag, lng, lat, setMarkers, markers }) => {
   const [title, setTitle] = useState(null);

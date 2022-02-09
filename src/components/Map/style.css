@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+}
+
+.sidebar {
+  background-color: rgba(5, 185, 29, 0.9);
+  color: #fff;
+  padding: 6px 12px;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 550px;
+  margin: 12px;
+  border-radius: 4px;
+}
+.map-container {
+  height: 100vh;
+}
