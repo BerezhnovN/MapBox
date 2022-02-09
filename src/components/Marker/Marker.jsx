@@ -24,7 +24,7 @@ const Marker = ({ setFlag, lng, lat, setMarkers, markers }) => {
     <div className="marker">
       <input type="text" onChange={(e) => setTitle(e.target.value)} />
       <input type="text" onChange={(e) => setDescription(e.target.value)} />
-      <div className="img">
+      <div className="marker-img">
         <img src={Done} alt="Done" onClick={() => makeDescription()} />
         <img src={Cancel} alt="Cancel" onClick={() => setFlag(false)} />
       </div>
