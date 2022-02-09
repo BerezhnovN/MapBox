@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
-import "./style.css";
 import mapboxgl from "!mapbox-gl"; // eslint-disable-line import/no-webpack-loader-syntax
 import Marker from "../Marker/Marker";
+import "./style.css";
 
 const Map = () => {
   const mapContainer = useRef(null);
