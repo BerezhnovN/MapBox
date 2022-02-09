@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+}
+
+.sidebar {
+  background-color: rgba(5, 185, 29, 0.9);
+  color: #fff;
+  padding: 6px 12px;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 550px;
+  margin: 12px;
+  border-radius: 4px;
+}
+.map-container {
+  height: 100vh;
+}
+
+.marker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  top: 25vh;
+  width: 20%;
+  height: 50vh;
+  background: rgb(16, 43, 194);
+  z-index: 1;
+}
+.marker input {
+  margin-bottom: 10px;
+}
+
+.marker img {
+  margin-top: 20px;
+  margin-right: 20px;
+  display: inline;
+  width: 35px;
+  height: 35px;
+}
